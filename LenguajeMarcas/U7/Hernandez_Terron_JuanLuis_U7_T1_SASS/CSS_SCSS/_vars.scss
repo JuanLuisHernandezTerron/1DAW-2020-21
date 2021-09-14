@@ -1,0 +1,13 @@
+$dark-theme: false;
+
+body{
+    @if ($dark-theme == true) {
+        background-color: black;
+    }@else{
+        background-color:gray;
+    }
+}
+
+$lista-colores: red, green, orange, blue, pink;
+
+$color-blanco:white;

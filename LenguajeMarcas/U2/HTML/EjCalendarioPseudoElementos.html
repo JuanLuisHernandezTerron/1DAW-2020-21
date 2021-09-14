@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Calendario</title>
+    <link rel="stylesheet" href="./CSS/calendario2.css">
+</head>
+<body>
+    <table>
+
+            <caption colspan="6"><a href="https://as.com/" target="_blnk">HORARIO DAW 1</a></caption>
+        <thead>
+            <tr>
+                <th>DAW1 Tarde</th>
+                <th>Lun</th>
+                <th>Mar</th>
+                <th>Mié</th>
+                <th>Jue</th>
+                <th>Vie</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>15:15</td>
+                <td rowspan="3">PROG</td>
+                <td rowspan="3">BB.DD</td>
+                <td rowspan="2">LM</td>
+                <td>LM</td>
+                <td rowspan="3">BB.DD</td>
+            </tr>
+            <tr>
+                <td>16:15</td>
+                <td rowspan="2">PROG</td>
+            </tr>
+            <tr>
+                <td>17:15</td>
+                <td>PROG</td>
+            </tr>
+            <tr>
+                <td >18:15</td>
+                <th colspan="5">RECREO</th>
+            </tr>
+            <tr>
+                <td >18:30</td>
+                <td rowspan="2">SI</td>
+                <td rowspan="2">ENDES</td>
+                <td>PROG</td>
+                <td>PROG</td>
+                <td >ENDES</td>
+            </tr>
+            <tr>
+                <td >19:30</td>
+                <td rowspan="2">SI</td>
+                <td rowspan="2">FOL</td>
+                <td rowspan="2">SI</td>
+            </tr>
+            <tr>
+                <td>20:30</td>
+                <td>LM</td>
+                <td>FOL</td>
+            </tr>
+    </tbody>
+    </table>
+    <form action="Formulario">
+    <br>
+        <label for="email">Email </label> <span>*</span> 
+        <input type="email" name="email" placeholder="Inserte email del destinatario" required/><br>
+    <br>
+        <label for="enviar"></label>
+        <input type="submit" value="Enviar HORARIO"/>
+    </form>
+</body>
+</html>
+
+
+

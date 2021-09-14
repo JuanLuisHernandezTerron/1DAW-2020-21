@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+
+.ej1{
+    background-color: rgb(161, 160, 160);
+}
+
+.ej2{
+    margin-top: 200px;
+    float: left;
+}
+
+.ej3{
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid black;
+    width: 28%;
+    height: 380px;
+}
+.ej9{
+    width: 84%;
+    margin-top: 5%;
+    margin-left: 7%;
+}
+.ej4{
+    text-align: center;
+    font-size: 13px;
+    position: fixed;
+    margin-right: 500px;
+}
+.ej5{
+    margin-top: -15px;
+    background-color: rgb(197, 231, 163);
+    width: 70%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ej7{
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.ej8{
+    
+    background-color: rgb(54, 54, 54);
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 50px;
+    margin-top: 30px;
+    
+}
+.ej11{
+    font-size: 25px;
+    color: gray;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 50px;
+    padding-right: 50px;
+}
+
+.ej12{
+    list-style-type: none;
+    font-size: 15px;
+}
+.ej13{
+    padding-left: 20px;
+}
+
+figure{
+    width: 20%;
+}
+
+#butaca{
+    display: inline-block;
+    border:  2px solid black;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 5;
+    transform: rotate(-45deg);
+    margin-top: 125px;
+    margin-left: 80px;
+
+}
+
+#cesped{
+    display: inline-block;
+    border:  2px solid black;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 4;
+    transform: rotate(45deg);
+    margin-left: 235px;
+    margin-top: 156px;
+}
+
+#arboles{
+    display: inline-block;
+    border:  2px solid black;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 3;
+    transform: rotate(-15deg);
+    margin-left: 380px;
+    margin-top: 210px;
+}
+
+#vinos{
+    display: inline-block;
+    border:  2px solid black;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 2;
+    transform: rotate(15deg);
+    margin-left: 500px;
+    margin-top: 270px;
+}
+
+figure img{
+    width: 65%;
+    padding-top: 8px;
+}
+
+figcaption{
+    text-align: center;
+}
+

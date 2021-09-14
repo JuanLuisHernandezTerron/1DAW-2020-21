@@ -1,0 +1,387 @@
+*{
+    box-sizing: border-box;
+}
+/*-----------------------------CONTAINER----------------------------*/
+/*-------------------------------MOVIL-----------------------------*/
+#container{
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 350px 300px 500px;
+}
+
+/*---------------------------HEADER MOVIL------------------------*/
+header{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 40% 50%;
+    grid-template-rows: 100px;
+}
+
+header img{
+    width: 30%;
+    text-align: left;
+    margin-top: 8%;
+    margin-left: 5%;
+    max-width: 70px;
+}
+
+nav{
+    display: none;
+}
+
+header i{
+    color: white;
+    text-align: right;
+    margin-top: 9%;
+    margin-left: 2%;
+}
+
+/*------------------------------MAIN-MOVIL--------------------------*/
+
+main{
+    background-color: rgb(88, 87, 87);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 230px 70px ;
+}
+
+#username,#email,label{
+    display: none;
+}
+
+form p{
+    display: none;
+}
+/*-----------------------SECTION-1-----------------------------------------*/
+main #section1{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 80px;
+}
+
+#section1 h1{
+    grid-column:1/2 ;
+    grid-row: 1/2;
+    font-size: 5vw;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    color: white;
+}
+
+#section1 p,span{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: white;
+    font-size: 3.2vw;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*------------------------------SECTION-2-----------------------------*/
+
+#section2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#section2 button{
+    background-color: green;
+    height: 40px;
+    border-radius: 5%;
+    color: white;
+    border-color: 1px black;
+}
+
+/*---------------------------------SECTION-3------------------------------*/
+
+#section3{
+    text-align: center;
+    display: block;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#section3 h1{
+    font-size: 5vw;
+}
+
+#section3 h3{
+    font-size: 4vw;
+}
+
+#section3 #p1{
+    font-size: 3.5vw;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#section3 #p2{
+    font-size: 3.5vw;
+    border: 2px solid blue;
+    width: 40%;
+    height: 50px;
+    margin-left: 30%;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+/*--------------------------------SECTION-4----------------------------------*/
+
+#section4{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 400px;
+}
+
+#section4 #imagen-robot{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    margin-left: 5%;
+}
+
+#section4 #imagen-robot img{
+    width: 50%;
+}
+
+/*-------------------------------------TEXTO-Imagen------------------------*/
+
+#texto{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding-top: 140px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 100px 100px;
+}
+
+#texto1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+#texto1 p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#texto2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding-top: 5%;
+    text-align: center;
+}
+
+#texto2 p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#texto3{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding-top: 10%;
+    text-align: center;
+}
+
+#texto3 p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*-------------------------TABLET---------------------------------------------*/
+@media screen and (min-width: 576px){
+    #container{
+        margin: 10px auto;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 100px 500px 350px;
+    }
+    /*-------------------------HEADER-TABLET-------------------------------*/
+    header img{
+        width: 60%;
+        text-align: left;
+        margin-top: 5%;
+        margin-left: 5%;
+        max-width: 70px;
+    }
+
+    header i{
+        color: white;
+        text-align: right;
+        margin-top: 6%;
+        margin-left: 2%;
+    }
+    /*-----------------------MAIN---MOVIL------------------------------------------*/
+    main{
+        background-color: rgb(88, 87, 87);
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 220px 250px;
+    }
+    /*-------------------------------SECTION1-----------------------------*/
+    main #section1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 100px 80px;
+    }
+    
+    #section1 h1{
+        grid-column:1/2 ;
+        grid-row: 1/2;
+        font-size: 3.5vw;
+        margin-left: 0%;
+        margin-right: 0%;
+        text-align: center;
+        color: white;
+    }
+
+    #section1 p,span{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        color: white;
+        font-size: 2.5vw;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    /*------------------SECTION-2------------------------------*/
+
+    #username,#email,label{
+        display: inherit;
+        text-align: left;
+        font-weight: bolder;
+        margin-left: 2%;
+    }
+    
+    form p{
+        display: inherit;
+    }
+
+    form{
+        background-color: white;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        border-radius: 3px;
+    }
+
+    input{
+        width: 95%;
+        margin-left: 2%;
+        padding-bottom: 2%;
+    }
+
+    #section2 button{
+        background-color: green;
+        width: 95%;
+        height: 50px;
+        border-radius: 5px;
+    }
+
+    /*------------------------------SECTION-3-------------------------*/
+
+    #section3{
+        text-align: center;
+        display: block;
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    #section3 h1{
+        font-size: 4.5vw;
+    }
+
+    #section3 h3{
+        font-size: 3.5vw;
+    }
+
+    #section3 #p1{
+        font-size: 2.5vw;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    #section3 #p2{
+        font-size: 2.5vw;
+        border: 2px solid blue;
+        width: 40%;
+        height: 50px;
+        margin-left: 30%;
+        padding-top: 10px;
+        border-radius: 5px;
+    }
+
+    
+    /*---------------------------SECTION-4-------------------------------*/
+    #section4{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    #section4 #imagen-robot{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        text-align: center;
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+
+    #texto1{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        text-align: center;
+        padding-top: 10%;
+    }
+    
+    #texto2{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        text-align: center;
+        padding-top: 15%;
+    }
+
+    #texto3{
+        grid-column: 1/2;
+        grid-row: 4/5;
+        text-align: center;
+        padding-top: 15%;
+    }
+
+@media screen and (min-width: 992px){
+    #container{
+        margin: 10px auto;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 150px 500px 500px;
+    }
+
+    header img{
+        width: 60%;
+        text-align: left;
+        margin-top: 5%;
+        margin-left: 5%;
+        max-width: 100px;
+    }
+
+    header i{
+        display: none;
+    }
+    
+    }
+}
+
+
+

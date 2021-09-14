@@ -1,0 +1,172 @@
+$imagen-centrado: center;
+$margin-arriba: 2%;
+$anchura-completa: 100%;
+$borde: "1px solid black";
+$tamaño_parrafo: 15px;
+$margen-bajo: 0px;
+
+/*HEADER*/
+header{
+    $fondo_curriculum: #536FF7;
+    background-color: $fondo_curriculum;
+    div{
+        &:first-child{
+            text-align: $imagen-centrado;
+            img{
+                $imagen-div: 60%;
+                width: $imagen-div;
+            }
+        }
+    }
+}
+
+header{
+    .hernandez{
+        text-align: $imagen-centrado;
+    }
+}
+
+/*MAIN*/
+
+div{
+    .lorem{
+        margin-top: $margin-arriba;
+    }
+}
+
+main{
+    div{
+        hr{
+            width: $anchura-completa;
+            border: #{$borde}
+        }
+    }
+}
+
+.competencias{
+    margin-top: $margin-arriba;
+}
+
+/*lista*/
+.lista{
+    $no_estilos:none;
+    list-style: none;
+}
+
+p{
+    font-size: $tamaño_parrafo;
+}
+
+.parrafo-ciudad{
+    $tamano_p: 11px;
+
+    margin-bottom: $margen-bajo;
+    font-size: $tamano_p;
+}
+
+div{
+    .empresa{
+        $letra_empresa: 15px;
+        $poner_negrita: bold;
+
+
+        font-size: $letra_empresa;
+    }
+}
+
+/*--------ENTREGABLE-------*/
+
+$colores_fondo:(verde: green, rojo: red, rosa: pink, azul:blue, amarillo:yellow, gris:grey, naranja: orange);
+$padding-tabla: 10px;
+
+@each $u,$e in $colores_fondo {
+    .tr-#{$u}{
+        background-color: #{$e};
+        border: #{$borde};
+    }
+}
+
+
+$borde: "1px solid black";
+
+table{
+    border: #{$borde};
+    margin: 10px auto;
+    tr{
+        td{
+            padding: $padding-tabla;
+            border: #{$borde};
+
+            &:last-child{
+                text-align: right;
+            }
+        }
+    }
+}
+
+.princi{
+    text-align: center;
+}
+
+/*LETRA*/
+
+$tamano:(1:20px, 2:19px, 3:20px, 4:20px, 5:25px, 6:15px, 7:30px, 8:25px, 9:20px, 10:22px, 11:24px, 13:25px, 14:31px);
+
+@each $u, $e in $tamano {
+    .letra#{$u}{
+        font-size: #{$e};
+    }
+}
+
+/*anchura*/
+
+
+@function calcularAnchura($anchuralargo){
+    @return percentage($anchuralargo/100);
+}
+
+
+@media screen and (min-width: 556px){
+    table{
+        width: calcularAnchura(90);
+    }
+}
+
+@media screen and (min-width: 776px){
+    table{
+        width: calcularAnchura(70);
+    }
+}
+
+
+@media screen and (min-width: 992px){
+    table{
+        width: calcularAnchura(80);
+    }
+}
+
+/*tema-claro*/
+$tema_claro: true;
+$tema_oscuro: false;
+
+.container{
+    @if($tema_claro == true) {
+        background-color: gray;
+    }@else if($tema_oscuro == true){
+        background-color: black;
+    }@else{
+        background-color: white;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

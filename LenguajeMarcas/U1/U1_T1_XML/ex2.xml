@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tiendas>
+    <Tienda Nombre="Sprinter" parcelas="2" Encargados="1">
+        <Parcelas>
+            <parcela="50 m2"/>
+            <parcela="10 m2"/>
+        </Parcelas>
+        <Encargado>
+            <Nombre="Jose"/>
+            <Apellidos="Garcia Rodriguez"/>
+            <TelefonoContacto="683 564 894"/>
+            <NSS="4112564786"/>
+        <Encargado>
+    </Tienda>
+    <Tienda Nombre="Carrefour" parcelas="3" Encargados="1">
+        <Parcelas>
+            <parcela="60 m2"/>
+            <parcela="30 m2"/>
+            <parcela="10 m2"/>
+        </Parcelas>
+        <Encargado>
+            <Nombre="Andres"/>
+            <Apellidos="Sanchez Martinez"/>
+            <TelefonoContacto="623 785 421"/>
+            <NSS="45632789651"/>
+        </Encargado>
+    </Tienda>
+    <Tienda Nombre="Adidas" parcelas="1" Encargados="2">
+        <parcelas>
+            <parcela="40 m2"/>
+        </parcelas>
+        <Encargado>
+            <Nombre="Antonio"/>
+            <Apellidos="Ruiz Gomez"/>
+            <TelefonoContacto="659 864 324"/>
+            <NSS="56498732165"/>
+        </Encargado>
+        <Encargado>
+            <Nombre="Jesus"/>
+            <Apellidos="Blanco Serrano"/>
+            <TelefonoContacto="623 987 568"/>
+            <NSS="26547893156"/>
+        </Encargado>
+    </Tienda>
+    <Tienda Nombre="Belros" parcelas="1" Encargados="1">
+        <parcelas>
+            <parcela="60 m2">
+        </parcelas>
+        <Encargado>
+            <Nombre="Maria"/>
+            <Apellidos="Rubio Cifuentes"/>
+            <TelefonoContacto="652 784 351"/>
+            <NSS="653247891452"/>
+        </Encargado>
+    </Tienda>
+    <Tienda Nombre="Decimas" parcelas="1" Encargados="1">
+        <parcelas>
+            <parcela="55 m2"/>
+        </parcelas>
+        <Encargado>
+            <Nombre="Laura"/>
+            <Apellidos="Guerrero Lozano"/>
+            <TelefonoContacto="695 234 895"/>
+            <NSS="12596347820"/>
+        </Encargado>
+    </Tienda>
+    <Tienda Nombre="Bershka" parcelas="1" Encargados="1">
+        <parcelas>
+            <parcela="60 m2"/>
+        </parcelas>
+        <Encargado>
+            <Nombre="Juan Jose"/>
+            <Apellidos="Reina Cruz"/>
+            <TelefonoContacto="654 965 023"/>
+            <NSS="23014569872"/>
+        </Encargado>
+    </Tienda>
+    <Tienda nombre="Futbol emotion" parcelas="1" Encargados="1">
+        <parcelas>
+            <parcela="65 m2"/>
+        </parcelas>
+        <Encargado>
+            <Nombre="Lola"/>
+            <Apellidos="Cano Nuñez"/>
+            <TelefonoContacto="689 206 453"/>
+            <NSS="26547812304"/>
+        </Encargado>
+    </Tienda>
+    <Tienda Nombre="Levis" parcelas="1" Encargados="1">
+        <parcelas>
+            <parcela="55 m2"/>
+        </parcelas>
+        <Encargado>
+            <Nombre="Luna"/>
+            <Apellidos="Flores Carrasco"/>
+            <TelefonoContacto="652 189 723"/>
+            <NSS="5632148972014"/>
+        </Encargado>
+    </Tienda>
+    <Tienda nombre="Movistar" parcelas="1" Encargados="1">
+        <parcelas>
+            <parcela="40 m2"/>
+        </parcelas>
+        <Encargado>
+            <Nombre="Lorenzo"/>
+            <Apellidos="Diez Duran"/>
+            <TelefonoContacto="625 485 952"/>
+            <NSS="12034598762"/>
+        </Encargado>
+    </Tienda>
+    <Tienda nombre="Soloptical" parcela="1" Encargados="1">
+        <parcelas>
+            <parcela="49 m2"/>
+        </parcelas>
+        <Encargado>
+            <Nombre="Lucas"/>
+            <Apellido="Bravo Rojas"/>
+            <TelefonoContacto="632 753 695"/>
+            <NSS="4023156879"/>
+        </Encargado>
+    </Tienda>
+</Tiendas>

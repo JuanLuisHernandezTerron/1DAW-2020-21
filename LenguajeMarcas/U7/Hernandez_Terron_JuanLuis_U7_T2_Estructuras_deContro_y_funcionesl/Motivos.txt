@@ -1,0 +1,4 @@
+Escribir un documento con los motivos por los que tú crees que utilizar Sass ayuda a un desarrollo FrontEnd más rápido.
+
+Sass nos ayuda a reducir nuestro tiempo para crear nuestro css, nos permite estructura de una manera más visible a la hora de
+hacer nuestro scss.

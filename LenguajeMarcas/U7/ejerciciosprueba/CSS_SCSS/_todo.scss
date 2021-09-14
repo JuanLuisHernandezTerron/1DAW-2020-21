@@ -1,0 +1,55 @@
+$tema_claro: false;
+@include reset;
+
+.container{
+    @if ($tema_claro == true) {
+        background-color: gray;
+    }@else{
+        background-color: black;
+    }
+}
+
+
+.container{
+    width: 100%;
+    height: 300px;
+}
+
+p{
+    color: white;
+}
+
+span{
+    @include anchuras(15px,2px,20%);
+    color: white;
+}
+
+@for $var from 1 to 4 {
+    td:nth-of-type(#{$var}){
+        color: nth($listacolor, $var);
+    }
+}
+
+@each $u,$e in $mapa-colo1 {
+    .h#{$u}{
+        background-color: #{$e};
+    }
+}
+
+@function colorSectionTitle($numero){
+    @return nth($lista-colores, $numero);
+}
+
+.titulo{
+    color: colorSectionTitle(1);
+}
+
+@function anchuras($anchura){
+    @return percentage($acnhura/100);
+}
+
+@for $var from 1 to 3 {
+    li:nth-of-type(#{$var}){
+        color: nth($lista-color, $var);
+    }
+}

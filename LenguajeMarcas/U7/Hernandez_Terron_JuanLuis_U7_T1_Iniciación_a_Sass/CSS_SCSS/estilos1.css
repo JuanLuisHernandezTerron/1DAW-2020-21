@@ -1,0 +1,48 @@
+/*HEADER*/
+header {
+  background-color: #536FF7;
+}
+header div:first-child {
+  text-align: center;
+}
+header div:first-child img {
+  width: 60%;
+}
+
+header .hernandez {
+  text-align: center;
+}
+
+/*MAIN*/
+div .lorem {
+  margin-top: 2%;
+}
+
+main div hr {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.competencias {
+  margin-top: 2%;
+}
+
+/*lista*/
+.lista {
+  list-style: none;
+}
+
+p {
+  font-size: 15px;
+}
+
+.parrafo-ciudad {
+  margin-bottom: 0px;
+  font-size: 11px;
+}
+
+div .empresa {
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=estilos1.css.map */

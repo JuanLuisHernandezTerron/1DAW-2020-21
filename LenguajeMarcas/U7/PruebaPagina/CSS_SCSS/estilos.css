@@ -1,0 +1,54 @@
+.btn-error {
+  background-color: red;
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn-warning {
+  background-color: yellow;
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn-accepted {
+  background-color: green;
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn-normal {
+  background-color: blue;
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+}
+
+input:hover {
+  box-shadow: 2px 2px 2px 1px gray;
+}
+input:active {
+  background-color: #F1A800;
+  color: white;
+}
+
+/*---------------------Tabla----------------------*/
+table tr td:nth-child(1) {
+  background-color: #757472;
+}
+
+table tr td:nth-child(2) {
+  background-color: #2e2d2c;
+}
+
+table tr td:nth-child(3) {
+  background-color: #757472;
+}
+
+table tr td:nth-child(4) {
+  background-color: #2e2d2c;
+}
+
+/*# sourceMappingURL=estilos.css.map */

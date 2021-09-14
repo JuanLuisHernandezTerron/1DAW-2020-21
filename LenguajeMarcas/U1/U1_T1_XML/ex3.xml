@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatalogoConcesionario>
+    <Marca Nombre="Ford" Pais="Estados Unidos">
+        <Coche>
+            <Modelo="Ford Focus"/>
+            <Matricula="5808 OPI"/>
+            <AñoMatriculacion="2019"/>
+            <Numeroplazas="5"/>
+            <CC="155CV"/>
+        </Coche>
+        <Coche>
+            <Modelo="Ford Puma"/>
+            <Matricula="1908 ZRF"/>
+            <AñoMatriculacion="2019"/>
+            <Numeroplazas="5"/>
+            <CC="125CV"/>
+        </Coche>
+    </Marca>
+    <Marca Nombre="Seat" Pais="España">
+        <Coche>
+            <Modelo="Seat Leon"/>
+            <Matricula="0464 UIH"/>
+            <AñoMatriculacion="2018"/>
+            <Numeroplazas="5"/>
+            <CC="110CV"/>
+        </Coche>
+        <Coche>
+            <Modelo="Seat Ateca"/>
+            <Matricula="8889 DHI"/>
+            <AñoMatriculacion="2019"/>
+            <Numeroplazas="5"/>
+            <CC="115CV"/>
+        </Coche>
+    </Marca>
+    <Marca Nombre="Citroen" Pais="Francia">
+        <Coche>
+            <Modelo="Citroen C3"/>
+            <Matricula="5471 FSH"/>
+            <AñoMatriculacion="2019"/>
+            <Numeroplazas="5"/>
+            <CC="110CV"/>
+        </Coche>
+        <Coche>
+            <Modelo="Citroen Xsara"/>
+            <Matricula="4619 BTX"/>
+            <AñoMatriculacion="2005"/>
+            <Numeroplazas="5"/>
+            <CC="112CV"/>
+        </Coche>
+    </Marca>
+    <Marca Nombre="Peugeot" Pais="Francia"/>
+        <Coche>
+            <Modelo="Peugeot 208"/>
+            <Matricula="2978 WJC"/>
+            <AñoMatriculacion="2019"/>
+            <Numeroplazas="5"/>
+            <CC="115 CV"/>
+        </Coche>
+        <Coche>
+            <Modelo="Peugeot 2008"/>
+            <Matricula="6818 BZS"/>
+            <AñoMatriculacion="2017"/>
+            <Numeroplazas="5"/>
+            <CC="115 CV"/>
+        </Coche>
+    </Marca>
+    <Marca Nombre="Renault" Pais="Francia">
+        <Coche>
+            <Modelo="Renault Clio"/>
+            <Matricula="4258 ZDD"/>
+            <AñoMatriculacion="2007"/>
+            <Numeroplazas="5"/>
+            <CC="110 CV"/>
+        </Coche>
+        <Coche>
+            <Modelo="Renault Megane"/>
+            <Matricula="7287 JWT"/>
+            <AñoMatriculacion=" 2018"/>
+            <Numeroplazas="5"/>
+            <CC="115 CV"/>
+        </Coche>
+    </Marca>
+</CatalogoConcesionario>

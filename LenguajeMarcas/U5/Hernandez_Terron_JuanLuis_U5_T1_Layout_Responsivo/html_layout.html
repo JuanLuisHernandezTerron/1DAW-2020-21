@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/Estilos.css">
+    <title>Richard Computer (PhotoGraphy)</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/4a71393b92.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="./imagenes/logo.png"/>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="linea-roja"></div>
+            <div id="Titulo-pagina">
+                <h1>Richard Computer</h1>
+                <h3>PhotoGraphy</h3>
+            </div>
+        </header>
+        <main>
+            <div id="InformacionPrimaria">
+                <div id="titulo">
+                    <h2 id="titulo1">SPECIALIST IN AWESOME</h2>
+                    <h1>PHOTOGRAPHY.</h1>
+                    <h2 id="titulo2">LET ME CAPTURE YOUR MOMENTS</h2>
+                </div>
+                <div id="imagen">
+                    <picture>
+                        <source media="(max-width: 556px)" srcset="imagenes/imagen_camara_pequeña.png">
+                        <source media="(min-width: 557px)" srcset="imagenes/imagen_camara_grande.png">  
+                        <img src="./imagenes/imagen camara.png" alt="imagen-camara"/>
+                    </picture>
+                </div>
+            </div>
+            <div id="Informacion-variasimg">
+                <div id="tit-variasIMG">
+                    <h2 id="text1">RECENT</h2>
+                    <h2 id="text2">PHOTOS</h2>
+                    <input type="button" value="PortFolio">
+                </div>
+                <div id="variasIMG">
+                    <picture>
+                        <source media="(max-width: 576px)" srcset="imagenes/imagen-hombre-pequeña.jpg"> <!----HOMBRE----->
+                        <source media="(min-width: 577px)" srcset="imagenes/imagen-hombre-grande.jpg">
+                        <img src="./imagenes/imagen-hombre-grande.jpg" alt="imagen-hombre">
+                    </picture>
+                    <picture>
+                            <source media="(min-width: 576px)" srcset="imagenes/imagen-niño_pequeña.jpg"> <!--NIÑO--->
+                            <source media="(min-width: 577px)" srcset="imagenes/imagen-niño_grande.jpg">
+                            <img src="./imagenes/imagen-niño_grande.jpg" alt="imagen-niño">
+                    </picture>
+                    <picture>
+                        <source media="(min-width: 576px)" srcset="imagenes/imagen-persona_pequeña.jpg"> <!--Muje-Mayor--->
+                        <source media="(min-width: 577px)" srcset="imagenes/imagen-persona_grande.jpg">
+                        <img src="./imagenes/imagen-persona_grande.jpg" alt="imagen-abuela">
+                    </picture>
+                    <picture id="imagen-mujer">
+                        <source media="(min-width: 576px)" srcset="imagenes/imagen-mujer_pequeña.jpg"> <!-----Mujer---->
+                        <source media="(min-width: 577px)" srcset="imagenes/imagen-mujer_grande.jpg">
+                        <img src="./imagenes/imagen-mujer_grande.jpg" alt="imagen-mujer">
+                    </picture>
+                </div>
+            </div>
+            <hr>
+        </main>
+        <footer>
+            <div id="Texto-RSS">
+                <div id="texto">
+                    <h2>This is Photoshop´s version of Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem vero a ipsam in quibusdam. Consequatur quos, quod illo .</h2>
+                </div>
+            </div>
+            <div id="RSS">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a> 
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                <a href="http://twitter.com/" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+
+
+

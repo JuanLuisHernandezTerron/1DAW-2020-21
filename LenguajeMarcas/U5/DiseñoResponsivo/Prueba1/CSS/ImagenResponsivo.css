@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+#container{
+    width: 80%;
+    margin: 10px auto;
+}
+
+#container div{
+    float: left;
+}
+
+#container #imagenes{
+    width: 50%;
+}
+
+#imagenes div{
+    width: 50%;
+}
+
+#container div{
+    width: 33.3%;
+    padding: 10px;
+}
+img{
+    width: 100%;
+}
+
+div{
+    font-size: 25px;
+}
+
+body #container div:nth-child(2){
+    margin-left: 50px;
+}
+
+#id1{
+    width: 50%;
+}
+
+#id2{
+    width: 33.3;
+}
+
+#id3{
+    width: 33.3;
+}
+
+#id4{
+    width: 33.3;
+}

@@ -1,0 +1,43 @@
+img{
+    width: 50px;
+    height: 50px;
+    display:block;
+    margin:auto;
+}
+table{
+    border-collapse: collapse;
+    height: 350px;
+    border: 2px solid;
+
+}
+td,th{
+    border: 1px solid;
+}
+
+.ej1{
+    background-color: red;
+    color: white;
+}
+#ej1{
+    text-align: center;
+}
+.ej2{
+    background-color: gray;
+    font-size: 25px;
+}
+#ej2 ,ul{
+    color: red;
+}
+#ej3{
+    padding: 25px;
+    background-color: yellow;
+}
+#ej4{
+
+}
+[colspan="2"]{
+    background-color: blue;
+}
+[colspan="3"]{
+    background-color: blue;
+}

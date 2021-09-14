@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    background-image: url("https://i.pinimg.com/originals/26/6c/44/266c44f4d5e4b96af11fed54448b3ed1.jpg");
+    filter: brightness(150%);
+}
+
+/*--------------------------------MOVIL--------------------------*/
+/*-----------------------------HEADER-MOVIL-----------------------*/
+.linea-roja{
+    background-color: red;
+    height: 10px;
+}
+
+.titulo{
+    transform:rotate(-5deg);
+}
+
+header div h2{
+    font-family: 'Courgette', cursive;
+    color: white;
+}
+
+header div h5{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+/*-------------------------------MAIN-MOVIL--------------------------*/
+main div h2,h4,p,h3{
+    font-family: 'Domine', serif;
+    color: white;
+}
+
+.photography{
+    color: rgb(235, 48, 23);
+}
+
+.texto-1{
+    font-size: 7vw;
+}
+
+input{
+    background-color: orangered;  
+}
+
+.foto-1{
+    width: 80%;
+}
+
+.linea-negra{
+    background-color: rgb(46, 45, 45);
+    height: 2px;
+}
+
+/*----------------------------FOOTER-MOVIL------------------------------*/
+.texto-footer{
+    font-size: 4.2vw;
+}
+
+footer h2{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer a{
+    color: white;
+}
+
+/*------------TABLET-------------*/
+@media screen and (min-width: 576px){
+    main div h2,h4,p,h3{
+        font-size: 4vw;
+    }
+    
+    .photography{
+        font-size: 5.1vw;
+    }
+
+    .textolargo{
+        font-size: 3.5vw;
+    }
+
+    .texto-1{
+        font-size: 5.1vw;
+    }
+
+    input{
+        width: 15%;
+    }
+
+    .texto-footer{
+        font-size: 3vw;
+    }
+    
+}
+
+/*-----------ORDENADOR------------*/
+@media screen and (min-width: 992px){
+    header a{
+        color: white;
+        transition: transform .6s;
+    }
+
+    header i:hover{
+        transform: scale(1.2);
+        color:darkgray;
+    }
+
+    main div h2,h4,p,h3{
+        font-size: 3vw;
+    }
+
+    .photography{
+        font-size: 4vw;
+    }
+
+    .textolargo{
+        font-size: 3vw;
+    }
+
+    .texto-footer{
+        font-size: 2.8vw;
+    }
+
+    .texto-1{
+        font-size: 2.5vw;
+    }
+
+    input{
+        width: 80%;
+    }
+
+    .foto-1{
+        width: 100%;
+        transition: transform .6s;
+    }
+    
+    .foto-1:hover{
+        transform: scale(1.2);
+    }
+
+    .texto-footer{
+        font-size: 2.5vw;
+    }
+}

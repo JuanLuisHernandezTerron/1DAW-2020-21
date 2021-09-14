@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TorneoTenis nombre="Grand Slam">
+    <fechas>
+        <fechaInicio>07/10/2020</fechaInicio>
+        <fechaFinalizacion>16/10/2020</fechaFinalizacion>
+    </fechas>
+    <partidos>
+        <Partido1>
+            <FechaPartido>07/10/2020</FechaPartido>
+            <DatosTenistas>
+              <Tenista1>
+                <Nombre>Pepito</Nombre>
+                <Apellidos>Hernandez Perez</Apellidos>
+                <Edad>19</Edad>
+                <Peso>75 KG</Peso>
+                <Pais>España</Pais>
+             </Tenista1>
+             <Tenista2>
+                <Nombre>Juan</Nombre>
+                <Apellidos>Terron Sanchez</Apellidos>
+                <Edad>21</Edad>
+                <Peso>69 KG</Peso>
+                <Pais>España</Pais>
+            </Tenista2>
+            </DatosTenistas>
+            <ResultadoPartido>
+                <Sets>6-4 6-2 4-6</Sets>
+            </ResultadoPartido>
+        </Partido1>
+        <Partido2>
+            <FechaPartido>08/10/20</FechaPartido>
+            <DatosTenistas>
+              <Tenista1>
+                <Nombre>Novak</Nombre>
+                <Apellidos>Dokovic</Apellidos>
+                <Edad>33</Edad>
+                <Peso>75 KG</Peso>
+                <Pais>Serbia</Pais>
+             </Tenista1>
+             <Tenista2>
+                <Nombre>Juan</Nombre>
+                <Apellidos>Del Potro</Apellidos>
+                <Edad>21</Edad>
+                <Peso>69 KG</Peso>
+                <Pais>Argentina</Pais>
+            </Tenista2>
+            </DatosTenistas>
+            <ResultadoPartido>
+                <Sets>4-6 4-6 2-6</Sets>
+            </ResultadoPartido>
+        </Partido2>
+        <Partido3>
+            <FechaPartido>09/10/20</FechaPartido>
+            <DatosTenistas>
+              <Tenista1>
+                <Nombre>Rafael</Nombre>
+                <Apellidos>Nadal</Apellidos>
+                <Edad>31</Edad>
+                <Peso>79 KG</Peso>
+                <Pais>España</Pais>
+             </Tenista1>
+             <Tenista2>
+                <Nombre>Andy</Nombre>
+                <Apellidos>Murray</Apellidos>
+                <Edad>35</Edad>
+                <Peso>69 KG</Peso>
+                <Pais>GranBretaña</Pais>
+            </Tenista2>
+            </DatosTenistas>
+            <ResultadoPartido>
+                <Sets>4-6 4-6 4-6</Sets>
+            </ResultadoPartido>
+        </Partido3>
+        <Partido4>
+            <FechaPartido>10/10/20</FechaPartido>
+            <DatosTenistas>
+              <Tenista1>
+                <Nombre>Roger</Nombre>
+                <Apellidos>Federer</Apellidos>
+                <Edad>33</Edad>
+                <Peso>72 KG</Peso>
+                <Pais>Suiza</Pais>
+             </Tenista1>
+             <Tenista2>
+                <Nombre>Jose</Nombre>
+                <Apellidos>Martinez</Apellidos>
+                <Edad>25</Edad>
+                <Peso>69 KG</Peso>
+                <Pais>Bolivia</Pais>
+            </Tenista2>
+            </DatosTenistas>
+            <ResultadoPartido>
+                <Sets>4-6 4-6 6-4</Sets>
+            </ResultadoPartido>
+        </Partido4>
+        <Partido5>
+            <FechaPartido>11/10/20</FechaPartido>
+            <DatosTenistas>
+              <Tenista1>
+                <Nombre>Andres</Nombre>
+                <Apellidos>Fernandez</Apellidos>
+                <Edad>31</Edad>
+                <Peso>80 KG</Peso>
+                <Pais>Uruguay</Pais>
+             </Tenista1>
+             <Tenista2>
+                <Nombre>Andre</Nombre>
+                <Apellidos>Agassi</Apellidos>
+                <Edad>21</Edad>
+                <Peso>69 KG</Peso>
+                <Pais>Italiano</Pais>
+            </Tenista2>
+            </DatosTenistas>
+            <ResultadoPartido>
+                <Sets>4-6 6-4 2-6</Sets>
+            </ResultadoPartido>
+        </Partido5>
+        <Partido6>
+            <FechaPartido>12/10/20</FechaPartido>
+            <DatosTenistas>
+              <Tenista1>
+                <Nombre>Lleytor</Nombre>
+                <Apellidos>Roddick</Apellidos>
+                <Edad>35</Edad>
+                <Peso>79 KG</Peso>
+                <Pais>Suiza</Pais>
+             </Tenista1>
+             <Tenista2>
+                <Nombre>Ken</Nombre>
+                <Apellidos>Rodriguez</Apellidos>
+                <Edad>21</Edad>
+                <Peso>69 KG</Peso>
+                <Pais>Estados Unidos</Pais>
+            </Tenista2>
+            </DatosTenistas>
+            <ResultadoPartido>
+                <Sets>3-6 2-6 6-4</Sets>
+            </ResultadoPartido>
+        </Partido6>
+        <Partido7>
+            <FechaPartido>13/10/20</FechaPartido>
+            <DatosTenistas>
+              <Tenista1>
+                <Nombre>Mats</Nombre>
+                <Apellidos>William</Apellidos>
+                <Edad>39</Edad>
+                <Peso>65 KG</Peso>
+                <Pais>Gran Bretaña</Pais>
+             </Tenista1>
+             <Tenista2>
+                <Nombre>Rod</Nombre>
+                <Apellidos>Laver</Apellidos>
+                <Edad>27</Edad>
+                <Peso>82 KG</Peso>
+                <Pais>Gran Bretaña</Pais>
+            </Tenista2>
+            </DatosTenistas>
+            <ResultadoPartido>
+                <Sets>5-6 3-6 2-6</Sets>
+            </ResultadoPartido>
+        </Partido7>
+        <Partido8>
+            <FechaPartido>14/10/20</FechaPartido>
+            <DatosTenistas>
+              <Tenista1>
+                <Nombre>Arthur</Nombre>
+                <Apellidos>Ashe</Apellidos>
+                <Edad>38</Edad>
+                <Peso>79 KG</Peso>
+                <Pais>Nueva Zelanda</Pais>
+             </Tenista1>
+             <Tenista2>
+                <Nombre>Dominic</Nombre>
+                <Apellidos>Thiem</Apellidos>
+                <Edad>21</Edad>
+                <Peso>72 KG</Peso>
+                <Pais>Francia</Pais>
+            </Tenista2>
+            </DatosTenistas>
+            <ResultadoPartido>
+                <Sets>6-3 3-6 6-2</Sets>
+            </ResultadoPartido>
+        </Partido8>
+        <Partido9>
+            <FechaPartido>15/10/20</FechaPartido>
+            <DatosTenistas>
+              <Tenista1>
+                <Nombre>Roberto</Nombre>
+                <Apellidos>Bautista</Apellidos>
+                <Edad>32</Edad>
+                <Peso>76 KG</Peso>
+                <Pais>España</Pais>
+             </Tenista1>
+             <Tenista2>
+                <Nombre>Sergi</Nombre>
+                <Apellidos>Brugera</Apellidos>
+                <Edad>32</Edad>
+                <Peso>72 KG</Peso>
+                <Pais>España</Pais>
+            </Tenista2>
+            </DatosTenistas>
+            <ResultadoPartido>
+                <Sets>1-6 2-6 6-4</Sets>
+            </ResultadoPartido>
+        </Partido9>
+        <Partido10>
+            <FechaPartido>16/10/20</FechaPartido>
+            <DatosTenistas>
+              <Tenista1>
+                <Nombre>Vitas</Nombre>
+                <Apellidos>Gerulaitis</Apellidos>
+                <Edad>26</Edad>
+                <Peso>77 KG</Peso>
+                <Pais>Armenia</Pais>
+             </Tenista1>
+             <Tenista2>
+                <Nombre>Rafa</Nombre>
+                <Apellidos>Gutierrez</Apellidos>
+                <Edad>26</Edad>
+                <Peso>76 KG</Peso>
+                <Pais>Mexico</Pais>
+            </Tenista2>
+            </DatosTenistas>
+            <ResultadoPartido>
+                <Sets>5-6 6-1 6-2</Sets>
+            </ResultadoPartido>
+        </Partido10>
+    </partidos>
+
+</TorneoTenis>

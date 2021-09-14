@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+#div1{
+    width: 100%;
+    background-color: yellow;
+    float: left;
+    height: 100px;
+    }
+
+#div1 h3{
+    text-align: center;
+}
+
+#div2{
+    float: left;
+    width: 100%;
+    background-color: red;
+    height: 100px;
+}
+
+#div3{
+    float: left;
+    width: 100%;
+    background-color: blue;
+    height: 100px;
+}
+
+#div4{
+    float: left;
+    width: 100%;
+    background-color: green;
+    height: 100px;
+}
+/*------------------Pantalla Tablet-----------------------------------*/
+    @media screen and (orientation: landscape){
+        #div1{
+            background-color: cyan;
+        }
+        #div2{
+            width: 50%;
+        }
+
+        #div3{
+            width: 50%;
+        }
+    }
+    @media screen and (min-width:576px){
+        #div1{
+            background-color:darkseagreen;
+
+            }
+        
+        #div2{
+            width: 50%;
+        }
+
+        #div3{
+            width: 50%;
+        }
+
+    }
+/*----------------Pantalla ordenador--------------------------------*/
+@media screen and (min-width: 993px){
+    #div1{
+        width: 100%;
+        background-color:burlywood;
+        }
+    
+    #div2{
+        width: 33%;
+        background-color: red;
+    }
+
+    #div3{
+        width: 34%;
+        background-color: blue;
+    }
+    #div4{
+        width: 33%;
+        background-color: green;
+    }
+}

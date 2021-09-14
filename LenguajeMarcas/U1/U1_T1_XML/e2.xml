@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClusterMaquinas>
+    <Nodos> 
+        <nodo1 nombre="Nodo-1" IP="172.20.16.231">
+            <maquina1>
+                <Nombre>Ordenador-1</Nombre>
+                <S.O> Windows 10 </S.O>
+                <InterfazRed>Ethernet</InterfazRed>
+                <Ip>172.20.11.237</Ip>
+                <MAC>255.255.255.0</MAC>
+            </maquina1>
+            <maquina2>
+                <Nombre>Ordenador-2</Nombre>
+                <S.O>Linux Ubuntu</S.O>
+                <InterfazRed>Enpos3</InterfazRed>
+                <Ip>172.20.12.238</Ip>
+                <MAC>255.255.255.0</MAC>
+            </maquina2>
+            <maquina3>
+                <Nombre>Ordenador-3</Nombre>
+                <S.O>Linux mint</S.O>
+                <InterfazRed>Enpo2</InterfazRed>
+                <Ip>172.20.10.207</Ip>
+                <MAC>255.255.255.0</MAC>
+                </maquina3>
+        </nodo1>
+         <Nodo2 Nombre="Nodo2" ip="172.20.15.165">
+            <MaquinasVirtuales>
+                <maquina1>
+                    <Nombre>Ordenador-1</Nombre>
+                    <S.O>Windows10</S.O>
+                    <InterfazRed>Ethernet</InterfazRed>
+                    <Ip>172.20.15.159</Ip>
+                    <MAC>255.255.255.0</MAC>
+                </maquina1>
+                <maquina2>
+                    <Nombre>Ordenador-2</Nombre>
+                     <S.O> Ubuntu</S.O>
+                    <InterfazRed>Enpos3</InterfazRed>
+                    <Ip>172.20.15.181</Ip>
+                 <MAC>255.255.255.0</MAC>
+                </maquina2>
+                <maquina3>
+                    <Nombre>Ordenador-3</Nombre>
+                    <S.O>Windows 7</S.O>
+                    <InterfazRed>Ethernet</InterfazRed>
+                    <Ip>172.20.15.126</Ip>
+                    <MAC>255.255.255.0</MAC>
+                </maquina3>
+            <Nodo3 Nombre="Nodo3" ip="172.21.15.185">
+                <maquina1>
+                    <Nombre>Ordenador-1</Nombre>
+                    <S.O>Linux Ubuntu</S.O>
+                    <Interfaces>
+                        <Interfaz1>
+                             <Ip>172.21.15.152</Ip>
+                             <MAC>255.255.255.0</MAC>
+                        </Interfaz1>
+                        <Interfaz2>
+                             <Ip>172.21.16.154</Ip>
+                             <MAC>255.255.255.0</MAC>
+                        </Interfaz2>
+                    </Interfaces>
+                </maquina1>
+                <maquina2>
+                    <Nombre>Ordenador-1</Nombre>
+                    <S.O>Windows10</S.O>
+                    <InterfazRed>Ethernet</InterfazRed>
+                    <Interfaces>
+                        <Interfaz1>
+                             <Ip>172.21.16.181</Ip>
+                             <MAC>255.255.255.0</MAC>
+                        </Interfaz1>
+                        <Interfaz2>
+                             <Ip>172.21.15.167</Ip>
+                             <MAC>255.255.255.0</MAC>
+                        </Interfaz2>
+                    </Interfaces>
+                </maquina2>
+                <maquina3>
+                     <Nombre>Ordenador-3</Nombre>
+                    <S.O>Windows8</S.O>
+                    <InterfazRed>Ethernet</InterfazRed>
+                    <Interfaces>
+                        <Interfaz1>
+                             <Ip>172.21.15.189</Ip>
+                             <MAC>255.255.255.0</MAC>
+                        </Interfaz1>
+                        <Interfaz2>
+                             <Ip>172.21.16.162</Ip>
+                             <MAC>255.255.255.0</MAC>
+                        </Interfaz2>
+                    </Interfaces>
+                </maquina3>
+            </Nodo3>
+            </MaquinasVirtuales>
+
+        </Nodo2>
+    </Nodos>  
+</ClusterMaquinas>

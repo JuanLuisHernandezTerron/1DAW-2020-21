@@ -1,0 +1,174 @@
+/*HEADER*/
+header {
+  background-color: #536FF7;
+}
+header div:first-child {
+  text-align: center;
+}
+header div:first-child img {
+  width: 60%;
+}
+
+header .hernandez {
+  text-align: center;
+}
+
+/*MAIN*/
+div .lorem {
+  margin-top: 2%;
+}
+
+main div hr {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.competencias {
+  margin-top: 2%;
+}
+
+/*lista*/
+.lista {
+  list-style: none;
+}
+
+p {
+  font-size: 15px;
+}
+
+.parrafo-ciudad {
+  margin-bottom: 0px;
+  font-size: 11px;
+}
+
+div .empresa {
+  font-size: 15px;
+}
+
+/*--------ENTREGABLE-------*/
+.tr-verde {
+  background-color: green;
+  border: 1px solid black;
+}
+
+.tr-rojo {
+  background-color: red;
+  border: 1px solid black;
+}
+
+.tr-rosa {
+  background-color: pink;
+  border: 1px solid black;
+}
+
+.tr-azul {
+  background-color: blue;
+  border: 1px solid black;
+}
+
+.tr-amarillo {
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.tr-gris {
+  background-color: grey;
+  border: 1px solid black;
+}
+
+.tr-naranja {
+  background-color: orange;
+  border: 1px solid black;
+}
+
+table {
+  border: 1px solid black;
+  margin: 10px auto;
+}
+table tr td {
+  padding: 10px;
+  border: 1px solid black;
+}
+table tr td:last-child {
+  text-align: right;
+}
+
+.princi {
+  text-align: center;
+}
+
+/*LETRA*/
+.letra1 {
+  font-size: 20px;
+}
+
+.letra2 {
+  font-size: 19px;
+}
+
+.letra3 {
+  font-size: 20px;
+}
+
+.letra4 {
+  font-size: 20px;
+}
+
+.letra5 {
+  font-size: 25px;
+}
+
+.letra6 {
+  font-size: 15px;
+}
+
+.letra7 {
+  font-size: 30px;
+}
+
+.letra8 {
+  font-size: 25px;
+}
+
+.letra9 {
+  font-size: 20px;
+}
+
+.letra10 {
+  font-size: 22px;
+}
+
+.letra11 {
+  font-size: 24px;
+}
+
+.letra13 {
+  font-size: 25px;
+}
+
+.letra14 {
+  font-size: 31px;
+}
+
+/*anchura*/
+@media screen and (min-width: 556px) {
+  table {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 776px) {
+  table {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 992px) {
+  table {
+    width: 80%;
+  }
+}
+/*tema-claro*/
+.container {
+  background-color: black;
+}
+
+/*# sourceMappingURL=temaOscuro.css.map */

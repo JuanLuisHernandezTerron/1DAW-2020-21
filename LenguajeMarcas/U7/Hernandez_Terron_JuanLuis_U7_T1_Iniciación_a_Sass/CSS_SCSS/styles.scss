@@ -1,0 +1,80 @@
+$imagen-centrado: center;
+$margin-arriba: 2%;
+$anchura-completa: 100%;
+$borde: "1px solid black";
+$tamaño_parrafo: 15px;
+$margen-bajo: 0px;
+
+/*HEADER*/
+header{
+    $fondo_curriculum: #536FF7;
+    background-color: $fondo_curriculum;
+    div{
+        &:first-child{
+            text-align: $imagen-centrado;
+            img{
+                $imagen-div: 60%;
+                width: $imagen-div;
+            }
+        }
+    }
+}
+
+header{
+    .hernandez{
+        text-align: $imagen-centrado;
+    }
+}
+
+/*MAIN*/
+
+div{
+    .lorem{
+        margin-top: $margin-arriba;
+    }
+}
+
+main{
+    div{
+        hr{
+            width: $anchura-completa;
+            border: #{$borde}
+        }
+    }
+}
+
+.competencias{
+    margin-top: $margin-arriba;
+}
+
+/*lista*/
+.lista{
+    $no_estilos:none;
+    list-style: none;
+}
+
+p{
+    font-size: $tamaño_parrafo;
+}
+
+.parrafo-ciudad{
+    $tamano_p: 11px;
+
+    margin-bottom: $margen-bajo;
+    font-size: $tamano_p;
+}
+
+div{
+    .empresa{
+        $letra_empresa: 15px;
+        $poner_negrita: bold;
+
+
+        font-size: $letra_empresa;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,150 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#Container{
+    width: 90%;
+    height: 680px;
+    margin: 10px auto;
+    border-radius: 30%;
+}
+
+#header{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+}
+
+#Moodle{
+    float: left;
+}
+
+#header #Moodle h1{
+    color: white;
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+#login{
+    float: right;
+    color:white;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+#navegador{
+    width: 100%;
+    background-color: rgb(102, 146, 15);
+    height: 60px;
+    overflow-y: auto;
+}
+
+#navegador:hover{
+    background-color: brown;
+}
+
+#navegador div{
+    float: left;
+    margin-left: 15px;
+    color: white;
+    margin-top: 10px;
+}
+
+#navegador div:hover{
+    color:red
+}
+
+
+#informacion{
+    width: 100%;
+    background-color: white;
+    height: 500px;
+    margin-top: -21px;
+}
+
+#Menu_principal{
+    background-color: rgb(163, 159, 159);
+    width: 20%;
+    height: 220px;
+    margin-left: 3%;
+    margin-top: 40px;
+    border-radius: 2%;
+    float: left;
+}
+
+#MenuInformacion{
+    height: 220px;
+}
+
+#InformacionCentral{
+    width: 90%;
+    height: ;
+    margin: auto;
+}
+
+#MenuInformacion h4{
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-bottom: -1px;
+    font-size: 15px;
+}
+
+#MenuInformacion img{
+    width: 80%;
+    height: 140px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+
+#arbol{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 60px;
+}
+
+#arbol img{
+    width: 90%;
+    height: 180px;
+}
+#categoria{
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+
+
+#divcalendario{
+    float: left;
+    width: 30%;
+    height: 100px;
+}
+
+#bachiller img{
+    width: 80px;
+    margin-left: 90px;
+}
+
+#bachiller{
+    margin-top: 2px;
+}
+
+#footer{
+    width: 100%;
+    background-color: black;
+    height: 70px;
+
+}
+
+#footer p{
+    color: white;
+    text-align: center;
+}
+
+#footer img{
+    margin-left: 500px;
+    margin-top: -25px;
+}

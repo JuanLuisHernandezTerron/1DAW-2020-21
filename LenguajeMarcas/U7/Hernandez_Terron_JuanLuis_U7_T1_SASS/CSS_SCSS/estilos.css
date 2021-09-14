@@ -1,0 +1,65 @@
+body {
+  background-color: gray;
+}
+
+.section-title-1 {
+  color: red;
+}
+
+.section-title-2 {
+  color: green;
+}
+
+.section-title-3 {
+  color: orange;
+}
+
+.section-title-3 {
+  color: blue;
+}
+
+.section-title-4 {
+  color: pink;
+}
+
+.header {
+  margin-bottom: 15px;
+}
+.header .full-name span {
+  color: white;
+  font-size: 50px;
+}
+
+.separator {
+  border-right: 1px solid black;
+}
+
+.phone {
+  margin-left: 3px;
+}
+
+.section__title {
+  border-bottom: 1px solid black;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.floats, .section__list-item:first-of-type .left, .left-1 {
+  float: left;
+  width: 50%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+}
+
+.container {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 98%;
+}
+
+/*# sourceMappingURL=estilos.css.map */

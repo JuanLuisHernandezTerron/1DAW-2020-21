@@ -1,0 +1,19 @@
+<xs:schema
+xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+elementFormDefault="qualified">
+<xs:element name="beatles">
+                <xs:ComplexType>
+                    <xs:Sequence>
+                        <xs:element name="beatle" maxOccurs="Unbounded"/>
+                <xs:ComplexType>
+                    <xs:Sequence name="name">
+                        <xs:element name="firstname" type="xs:string" maxOccurs="Unbounded"/>
+                        <xs:element name="lastname" type="xs:string" maxOccurs="Unbounded"/>
+                    </xs:Sequence>
+                    <xs:attribute name="link" type="xs:string"/>
+                    <xs:attribute name="real" type="xs:boolean" use="Implied"/>
+                </xs:ComplexType>
+            </xs:Sequence>
+        /<xs:ComplexType>
+  </xs:element>
+</xs:schema>

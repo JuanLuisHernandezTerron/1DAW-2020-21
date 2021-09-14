@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DirectoriosDirecciones>
+    <Edificios>
+        <Edificio1 direccion="Avnd La Palmera">
+            <InformacionPlantas>
+                <Plantas>3</Plantas>
+                <metros2>50m2</metros2>
+            </InformacionPlantas>
+            <InformacionEmpleados>
+                <Empleado1>
+                    <Puesto>Contador</Puesto>
+                    <Planta> 2 </Planta>
+                    <Nombre>Pedro</Nombre>
+                    <Apellidos>Hernandez Terron</Apellidos>
+                    <Telefono> 695 365 456</Telefono>
+                    <ExtensionTelefonica>101</ExtensionTelefonica>
+                </Empleado1>
+                <Empleado2>
+                    <Puesto>Contador</Puesto>
+                    <Planta> 3 </Planta>
+                    <Nombre>Juan</Nombre>
+                    <Apellidos>Perez Terron</Apellidos>
+                    <Telefono> 695 421 356</Telefono>
+                    <ExtensionTelefonica>112</ExtensionTelefonica>
+                </Empleado2>
+                <Empleado3>
+                    <Puesto>Empleado</Puesto>
+                    <Planta> 1 </Planta>
+                    <Nombre>Luis</Nombre>
+                    <Apellidos>Garrion Toledano</Apellidos>
+                    <Telefono> 697 255 456</Telefono>
+                    <ExtensionTelefonica>114</ExtensionTelefonica>
+                </Empleado3>
+                <Empleado4>
+                    <Puesto>Empleado</Puesto>
+                    <Planta> 2 </Planta>
+                    <Nombre>Luisa</Nombre>
+                    <Apellidos>Perez Gaspar</Apellidos>
+                    <Telefono> 632 24 458</Telefono>
+                    <ExtensionTelefonica>115</ExtensionTelefonica>
+                </Empleado4>
+                 <Empleado5>
+                    <Nombre>Fernando</Nombre>
+                    <Planta> 3 </Planta>
+                    <Apellidos>Hernandez Gomez</Apellidos>
+                    <Telefono> 621 235 245</Telefono>
+                    <ExtensionTelefonica>117</ExtensionTelefonica>
+                </Empleado5>
+            </InformacionEmpleados>
+        </Edificio1>
+        <Edificio2 direccion="Avnd Luis Montoto">
+            <InformacionPlantas>
+                <Plantas>3</Plantas>
+                <metros2>58m2</metros2>
+            </InformacionPlantas>
+            <InformacionEmpleados>
+                <Empleado1>
+                    <Puesto>Empleado</Puesto>
+                    <Planta> 2 </Planta>
+                    <Nombre>Tomas</Nombre>
+                    <Apellidos>Luis Terron</Apellidos>
+                    <Telefono> 692 125 145</Telefono>
+                    <ExtensionTelefonica>135</ExtensionTelefonica>
+                </Empleado1>
+                <Empleado2>
+                    <Puesto>Superior</Puesto>
+                    <Planta> 3 </Planta>
+                    <Nombre>Suso</Nombre>
+                    <Apellidos>Garrido Perez</Apellidos>
+                    <Telefono> 695 434 365</Telefono>
+                    <ExtensionTelefonica>145</ExtensionTelefonica>
+                </Empleado2>
+                <Empleado3>
+                    <Puesto>Empleado</Puesto>
+                    <Planta> 1 </Planta>
+                    <Nombre>Maria</Nombre>
+                    <Apellidos>Gonzalez Fernandez</Apellidos>
+                    <Telefono> 692 234 566</Telefono>
+                    <ExtensionTelefonica>118</ExtensionTelefonica>
+                </Empleado3>
+                <Empleado4>
+                    <Puesto>Empleado</Puesto>
+                    <Planta> 3 </Planta>
+                    <Nombre>Miguel</Nombre>
+                    <Apellidos>Montoto Morales</Apellidos>
+                    <Telefono> 632 654 988</Telefono>
+                    <ExtensionTelefonica>183</ExtensionTelefonica>
+                </Empleado4>
+                 <Empleado5>
+                    <Puesto>Superior</Puesto>
+                    <Planta> 3 </Planta>
+                    <Nombre>Franciosco</Nombre>
+                    <Apellidos>Hernandez Gomez</Apellidos>
+                    <Telefono> 687 234 455</Telefono>
+                    <ExtensionTelefonica>114</ExtensionTelefonica>
+                </Empleado5>
+            </InformacionEmpleados>
+        </Edificio2>
+        <Edificio3 direccion="C/Manuel Esquivias">
+            <InformacionPlantas>
+                <Plantas>3</Plantas>
+                <metros2>65m2</metros2>
+            </InformacionPlantas>
+            <InformacionEmpleados>
+                <Empleado1>
+                    <Puesto>Superior</Puesto>
+                    <Planta> 1 </Planta>
+                    <Nombre>Luis</Nombre>
+                    <Apellidos>Gragajosa Delgado</Apellidos>
+                    <Telefono> 692 156 324</Telefono>
+                    <ExtensionTelefonica>178</ExtensionTelefonica>
+                </Empleado1>
+                <Empleado2>
+                    <Puesto>Empleado</Puesto>
+                    <Planta> 2 </Planta>
+                    <Nombre>Leonorda</Nombre>
+                    <Apellidos>Alfonso Diaz</Apellidos>
+                    <Telefono> 624 598 365</Telefono>
+                    <ExtensionTelefonica>150</ExtensionTelefonica>
+                </Empleado2>
+                <Empleado3>
+                    <Puesto>Empleado</Puesto>
+                    <Planta> 2 </Planta>
+                    <Nombre>Andrea</Nombre>
+                    <Apellidos>Gonzalez Terron</Apellidos>
+                    <Telefono> 692 125 586</Telefono>
+                    <ExtensionTelefonica>180</ExtensionTelefonica>
+                </Empleado3>
+                <Empleado4>
+                    <Puesto>Jefe</Puesto>
+                    <Planta> 3 </Planta>
+                    <Nombre>Lia</Nombre>
+                    <Apellidos>Montoto Perez</Apellidos>
+                    <Telefono> 632 654 345</Telefono>
+                    <ExtensionTelefonica>176</ExtensionTelefonica>
+                </Empleado4>
+                 <Empleado5>
+                    <Puesto>Superior</Puesto>
+                    <Planta> 1 </Planta>
+                    <Nombre>Juan Manuel</Nombre>
+                    <Apellidos>Molina Ramos</Apellidos>
+                    <Telefono> 654 246 368</Telefono>
+                    <ExtensionTelefonica>196</ExtensionTelefonica>
+                </Empleado5>
+            </InformacionEmpleados>
+        </Edificio3>   
+    </Edificios>
+</DirectoriosDirecciones>

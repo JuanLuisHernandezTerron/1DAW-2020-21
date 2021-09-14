@@ -1,0 +1,135 @@
+/*para darle al primer hijo de lista ul color rojo*/
+
+ul li:first-child{
+   color:red;
+}
+
+/*para darle al primer hijo de lista ol color verde*/
+
+ol li:first-child {
+   color:green;
+}
+
+/*para que la lista ol el ultimo hijo li sea de color azul*/
+
+ol li:nth-last-child(1){
+   color:blue;
+}
+
+/*para que la lista ol el ultimo hijo numero (2) li sea de color azul*/
+
+ol li:nth-last-child(2){
+   color:blue;
+}
+
+/*para que la lista ol el primer hijo sea un hover*/
+
+ol li:first-child:hover {
+   font-size: 1.5em;
+}
+
+/*para que la lista ol el ultimo hijo li sea un hover*/
+
+ol li:hover:nth-last-child(1){
+   font-size: 3em;
+}
+
+/*para que la dentro de la tabla el ultimo hijo th sea un hover en la cabezera*/
+
+
+thead th:hover:last-child{
+   font-size: 2em;
+}
+
+/*para que la dentro de la tabla el ultimo hijo th sea un hover en el cuerpo*/
+
+tbody td:hover:last-child{
+   font-size: 2em;
+}
+
+/*para que el primer tr de tbody sea un hover*/
+
+tbody tr:hover:first-child{
+   font-size: 2em;
+}
+
+
+/*para que el enlace sea de color*/
+
+a{
+   color:red;
+}
+
+/*para que el enlace sea un hover de color amarillo*/
+
+a:hover{
+   color:yellow;
+}
+
+/*para que cuando uses el enlace cambie a color cyan*/
+
+a:visited{
+
+   color:cyan;
+   
+}
+
+/*para que en un label dentro de un ul este tenga un texto al lado despues de el label  */
+
+ul label::after{
+   content: "hola1";
+   color: orange;
+}
+
+/*para que en un label dentro de un ul este tenga un texto antes de el label  */
+
+ul label::before{
+   content:"hola";
+   color: forestgreen;
+}
+
+/*para que dentro de una lista ul la primera letra sea de un tamaño mayor*/
+
+ul li::first-letter{
+   font-size: 2em;
+}
+
+
+/*para que la primera linea de un parrafo sea de x color*/
+
+p::first-line{
+   color: darkcyan;
+}
+
+/*para que en un parrafo el primer tipo sea de color  x*/
+
+p:first-of-type:hover{
+   color: seagreen;
+}
+
+/*para que dentro de una lista ul el numero 2 no tenga estilos*/
+
+ul li:nth-child(2){
+   list-style-type: none;
+
+}
+
+/*Para que h1 al subrayar sea de color rosa*/
+
+h1::selection{
+   color: pink;
+}
+
+/*para que un imput al tabular o estar sobre el tenga un color x*/
+
+input:focus{
+   padding: 10px;
+   border: solid darkgoldenrod 5px;
+}
+
+/*para que el penultimo input sea distinto*/
+
+input:nth-last-of-type(2){
+   padding: 5px;
+   border: solid rgb(23, 83, 85) 5px;
+}

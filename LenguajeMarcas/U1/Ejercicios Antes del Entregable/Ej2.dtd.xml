@@ -1,0 +1,11 @@
+<!ELEMENT Students (Student*)>
+<!ELEMENT Student (Name , Addres , Phone)>
+<!ATTLIST dni CDATA #REQUIRED>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Addres (#PCDATA)>
+<!ELEMENT Phone (#PCDATA)>
+<!ELEMENT Addres (Street, number, city, province)>
+<!ELEMENT Street (#PCDATA)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT province (#PCDATA)>

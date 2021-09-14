@@ -1,0 +1,17 @@
+@mixin reset {
+    p,h1,h2,h3,h4,h5,h6{
+        margin: 0px;
+    }
+}
+
+@mixin centrado($margen-sup, $margen-infe, $tamano){
+    margin-top: $margen-sup;
+    margin-bottom: $margen-infe;
+    width: $tamano;
+}
+
+.floats{
+    float: left;
+    width: 50%;
+}
+

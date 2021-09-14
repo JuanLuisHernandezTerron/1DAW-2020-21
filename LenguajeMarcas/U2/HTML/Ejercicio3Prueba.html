@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 Prueba</title>
+    <style>
+        .ej1{
+            background-color:deepskyblue;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+
+        .ej2{
+            margin-left: 95px;
+        }
+        .ej3{
+            margin-right: 95px;
+        }
+    </style>
+</head>
+<body>
+    <table border=0px>
+        <form>
+        <tr>
+            <th colspan="2" class="ej1">IES ALIXAR Login</th>
+        </tr>
+        <tr>
+            <td>Usuario</td>
+            <td>
+                <p>
+                    <input type="text" name="Usuario"/>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>
+                <p>
+                    <input type="password" name="Contraseña"></input>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>Fecha Nacimiento</td>
+            <td>
+                <p>
+                    <input type="date" name="date"></date>
+                </p> 
+            </td>
+        </tr>
+        <tr>
+            <td>Curso De Matriculación</td>
+            <td>
+                <p>
+                    <select name="Cursos">
+                        <option>1ºDAW</option>
+                        <option>2ºDAW</option>
+                    </select>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>ROL</td>
+            <td>
+                <p>
+                    <input type="radio" name="Roles" value="Estudiante">Estudiante</input>
+                    <br>
+                    <input type="radio" name="Roles" value="Profesor">Profesor</input>
+                    <br>
+                    <input type="radio" name="Roles" value="Apoyo">Apoyo</input>
+                    <br>
+                    <input type="radio" name="Roles" value="Staff">Staff</input>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>Forma de Comunicación:</td>
+            <td>
+                <p>
+                    <input type="checkbox" name="Comunicación" value="Mail">Mail</input>
+                    <br>
+                    <input type="checkbox" name="Comunicación" value="Teléfono">Teléfono</input>
+                    <br>
+                    <input type="checkbox" name="Comunicación" value="Correo Ordinario">Correo Ordinario</input>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>
+                    <input class="ej2" type="submit" value="Enviar"/>
+                </p>
+            </td>
+            <td>
+                <p>
+                    <input class="ej3" type="reset" value="Borrar"/>
+                </p>
+            </td>
+        </tr>
+        </form>
+    </table>
+</body>
+</html>

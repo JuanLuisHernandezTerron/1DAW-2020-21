@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InformacionLibro>
+    <Libro nombre="HarryPotter y La piedra Filosofal" editorial="BloomsBury" NumeroPaginas="309" Autor="J.K Rowling" titulo="HarryPotter" resumen="Novela">
+        <Capitulos>
+            <capitulo nombre="El niño que sobrevivió">
+                <NumeroCapitulo="1"/>
+                <Paginas="23"/>
+            </capitulo>
+            <capitulo nombre="El vidrio que se desvaneció">
+                <NumeroCapitulo="2"/>
+                <paginas="10"/>
+            <capitulo/>
+            <capitulo nombre="Las cartas de nadie">
+                <NumeroCapitulo="3"/>
+                <NumeroPaginas="12"/>
+            </capitulo>
+            <capitulo nombre="El Guardián de las llaves">
+                <NumeroCapitulo="4"/>
+                <NumeroPaginas="13"/>
+            </capitulo>
+            <capitulo nombre="El callejon Diagon">
+                <NumeroCapitulo="5"/>
+                <NumeroPaginas="12"/>
+            </capitulo>
+            <capitulo nombre="El viaje a través del anden nueve y tres cuartos">
+                <NumeroCapitulo="6"/>
+                <NumeroPaginas="11"/>
+        </Capitulos>
+    </Libro>
+</InformacionLibro>

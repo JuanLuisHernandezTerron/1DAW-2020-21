@@ -1,0 +1,5 @@
+@include reset;
+
+.container{
+    @include centrado(30px, 40px, 98%);
+}

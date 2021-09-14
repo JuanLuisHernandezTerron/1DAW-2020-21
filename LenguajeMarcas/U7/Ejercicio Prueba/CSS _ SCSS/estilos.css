@@ -1,0 +1,38 @@
+header {
+  margin-top: 1.5%;
+  background-color: #9b6f91;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 0.9%;
+  margin-top: 1.5%;
+  margin-left: 2%;
+  font-weight: bold;
+  font-size: 15px;
+}
+header nav ul li:first-child {
+  color: #ffff;
+}
+header nav ul li:hover {
+  color: #ffff;
+}
+
+main div {
+  margin-top: 1.5%;
+  margin-left: 2%;
+}
+main div figure {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+}
+main div figure img {
+  border-radius: 30px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=estilos.css.map */

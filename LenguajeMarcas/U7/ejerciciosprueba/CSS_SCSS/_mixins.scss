@@ -1,0 +1,14 @@
+@mixin reset{
+    p,h1,h2,h3,h4,h5,h6{
+        margin: 0px;
+    }
+}
+
+@mixin anchuras($margin1,$anchura2,$tamano) {
+    margin-top: $margin1;
+    margin-left: $anchura2;
+    width: $tamano;
+    margin-bottom: $margin1;
+}
+
+

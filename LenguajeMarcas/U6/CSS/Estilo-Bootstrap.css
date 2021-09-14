@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+    text-align: center;
+}
+
+.rojo{
+    height: 150px;
+    background-color: red;
+}
+
+.azul{
+    height: 150px;
+    background-color: blue;
+}
+
+.verde{
+    background-color: green;
+    height: 150px;
+}
+
+h1{
+    font-size: 3.5vw;
+}

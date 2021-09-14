@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+#container{
+    margin: 10px auto;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+
+#rojo{
+    background-color: red;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    transform: translate(0px , -300px);
+    transition: transform 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+#azul{
+    background-color: blue;
+    width: 100%;
+    height: 500px;
+}
+
+@media screen and (min-width:556px){
+    #rojo{
+        transform: translate(0px);
+    }
+}

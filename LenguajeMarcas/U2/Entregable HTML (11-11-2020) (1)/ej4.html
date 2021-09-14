@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <style>
+        .ej1{
+            border-collapse: collapse;
+            border-color: #f4ae42;
+        }
+        .ej2{
+            background-color: #f5d19b;
+        }
+        .ej3{
+            background-color: #f5d19b;
+            border-color:#f5d19b;
+        }
+        td,th{
+            border: none;
+            text-align: left;
+            font-size: 15px;
+            margin-right: -150px;
+        }
+        .ej4{
+            background-color: #f4ae42;
+        }
+        .ej5{
+            background-color: gray;
+        }
+        .ej6{
+            background-color: #f4ae42;
+            margin-left: 150px;
+        }
+        .ej7{
+            margin-top: -150px;
+        }
+    
+    </style>
+</head>
+<body>
+    <table class="ej1" border="1px">
+        <form>
+        <tr class="ej2">
+            <th>Leave Form</td>
+            <td>
+                <select class="ej3" name="more option" value="More-Actions">
+                    <option>Opcion1</option>
+                    <option>Opcion2</option>
+                    <option>Opcion3</option>
+                    <option>Opcion4</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th><label for="email">Employee Email</label></td>
+            <td>
+                <select name="email">
+                    <option>appuser@zohocreator.com</option>
+                    <option>appuser1@zohocreator.com</option>
+                    <option>appuser2@zohocreator.com</option>
+                    <option>appuser3@zohocreator.com</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th><label for="id" >Employee ID</label></td>
+            <td><input type="text" name="id" value="232"/></td>
+        </tr>
+        <tr>
+            <th><label for="Name">Emplyee Name</label></td>
+            <td><input type="text" name="Name" value="appuser"/></td>
+        </tr>
+        <tr>
+            <th><label for="Designation">Designation</label></td>
+            <td><input type="text" name="Designation" value="Team Leader"/></td>
+        </tr>
+        <tr>
+            <th><label for="Leave">Leave Type</label></td>
+            <td>
+                <select name="Leave" value="-Select-">
+                    <option>Select1</option>
+                    <option>Select2</option>
+                    <option>Select3</option>
+                    <option>Select4</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th><label for="from">From</label></td>
+            <td><input type="date" name="from" required/></td>
+        </tr>
+        <tr>
+            <th><label for="to">To</label></td>
+            <td><input type="date" name="to" required/></td>
+        </tr>
+        <tr>
+            <th><label for="days">No of days</label></td>
+            <td><input type="text" name="days"/></td>
+        </tr>
+        <tr>
+            <th><label class="ej7" for="Reason">Reason</label></td>
+            <td><textarea name="Reason" rows="10" cols="40"></textarea></td>
+        </tr>
+        <tr class="ej5">
+            <td><input  class="ej6" type="submit" value="submit"/></td>
+            <td><input class="ej4" type="reset" value="restart"/></td>
+        </tr>
+        </form>
+    </table>
+</body>
+</html>

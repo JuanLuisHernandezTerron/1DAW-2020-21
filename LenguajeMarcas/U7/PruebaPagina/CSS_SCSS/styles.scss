@@ -1,0 +1,51 @@
+$borde-boton: 3px;
+$padding: 15px;
+$shadow: "2px 2px 2px 1px gray";
+$color-letra: white;
+$color_active: #F1A800;
+$no_bordes: none;
+
+$nombre_botones:(error: red ,warning: yellow ,accepted: green ,normal: blue);
+
+@each $u,$e in $nombre_botones{
+    .btn-#{$u}{
+        background-color: #{$e};
+        padding: $padding;
+        border: $no_bordes;
+        border-radius: $borde-boton;
+    }
+}
+
+input{
+        &:hover{
+            box-shadow: #{$shadow};
+        }
+
+        &:active{
+            background-color: $color_active;
+            color: $color-letra;
+        }
+}
+
+/*---------------------Tabla----------------------*/
+
+
+$tema-oscuro: #2e2d2c;
+$tema-claro: #757472;
+
+
+@function tabla($columna){
+
+    @if ($columna%2==0){
+        @return $tema-oscuro;
+    }@else{
+        @return $tema-claro;
+    }
+}
+
+@for $columna from 1 to 5 {
+    table tr td:nth-child(#{$columna}){
+        background-color: tabla($columna);
+    }
+}
+

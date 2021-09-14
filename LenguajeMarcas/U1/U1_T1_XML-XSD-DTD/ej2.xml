@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro SYSTEM "ej2.dtd">
+<libro catalogo="LibrosAventuras">
+    <Titulo>El seño de los anillos</Titulo>
+    <Seccion>Aventura</Seccion>
+    <Contenido>
+        <capitulo materia="XML">
+            <tema>1</tema>
+            <tema>2</tema>
+            <tema>3</tema>
+        </capitulo>
+        <capitulo materia="XML">
+            <tema>4</tema>
+            <tema>5</tema>
+            <tema>6</tema>
+            <separacion></separacion>
+        </capitulo>
+    </Contenido>
+    <Copyright>El libro del señor de los anillos contiene Copyright</Copyright>
+</libro>

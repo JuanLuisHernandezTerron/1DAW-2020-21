@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+}
+/*CONTAINER*/
+
+#container{
+    margin:10px auto;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 55px 800px 400px;
+}
+
+/*NAVEGADOR*/
+nav{
+    background-color: rgb(34, 33, 33);
+    grid-column: 1/2;
+    grid-row: 1/2;
+    position: sticky;
+    top: 0;
+}
+nav p{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 0.15em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    transition: transform .5s;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+nav p:hover{
+    transform: scale(0.9);
+    color: gray;  
+}
+
+nav a{
+    text-decoration: none;
+}
+
+/*MAIN*/
+
+main{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: rgb(196, 187, 182);
+    display: grid;
+    grid-template-columns: 50% 45%;
+    grid-template-rows: 160px 270px 300px;
+    grid-row-gap: 20px;
+    overflow-y: hidden;
+    grid-column-gap: 5%;
+}
+/*Titulo Main*/
+#parrafoletra{
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    align-self:flex-end;
+}
+
+.parrafo{
+    font-size: 45px;
+    margin: 0px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.parrafo1{
+    font-size: 22px;
+    margin: 15px;
+}
+
+/*Informacion Centro ASIDE´S*/
+
+/*ASIDE IZQUIERDA*/
+#izquierda{
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
+#izquierda img{
+    width: 95%;
+    margin-left: 38px;
+}
+#izquierda p{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 5px;
+    overflow-y: auto;
+}
+/*ASIDE DERECHA*/
+#derecha{
+    grid-column: 2/3;
+    grid-row: 2/4;
+    background-color: rgb(209, 205, 205);
+    grid-row-gap: 20px;
+}
+
+form p{
+    margin: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-self:flex-end;
+}
+label, input, select, textarea, button{
+    margin-left: 10px;
+}
+
+form input, button,select,textarea {
+    width: 95%;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+form button{
+    background-color: violet;
+    color: white;
+    height: 35px;
+}
+
+form input, select{
+    height: 25px;
+}
+
+/*FOOTER*/
+footer{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: rgb(226, 226, 226);
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 200px 200px;
+    grid-column-gap: 5%;
+    grid-row-gap: 20px;
+    text-align: center;
+}
+footer div{
+    margin-top: 25px;
+}
+
+footer #perfil1,#texto1{
+    margin-left: 10px;
+}
+
+footer #perfil1 img{
+    width: 63%;
+    height: 200px;
+    border-radius: 50%;
+}
+
+footer  #perfil2 img{
+    margin-left: 10px;
+    width: 63%;
+    height: 200px;
+    border-radius: 50%;
+}
+
+footer  #perfil3 img{
+    width: 63%;
+    height: 200px;
+    border-radius: 50%;
+}
+
+li{
+    list-style-type: none;
+}
+
+#texto2 ul li{
+    margin-right: 36px;
+}
+
+#texto3 ul li{
+    margin-right: 36px;
+}
+

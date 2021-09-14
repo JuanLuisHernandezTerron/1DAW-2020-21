@@ -1,0 +1,56 @@
+[colspan="5"]{
+    background-color: yellow;
+}
+table{
+    width: 500px;
+    height: 300px;
+    border: 1px solid;
+}
+
+tbody td:first-child{
+    background-color: green;
+}
+
+th{
+    font-size: 20px;
+    border: 1px solid;
+}
+
+td{
+    border: 1px solid;
+}
+
+a{
+    text-decoration: none;
+    }
+
+a:link{
+    color: green;
+}
+
+a:visited{
+    color: red;
+}
+tr th:last-child:hover{
+    font-size: 1.5em;
+}
+
+tr td:last-child:hover{
+    font-size: 1.5em;
+}
+
+thead th::first-letter{
+    font-size: 1.6em;
+}
+
+span{
+    color:red;
+}
+
+input:first-of-type{
+    border-color: red;
+    width: 200px;
+    height: 25px;
+}
+
+
