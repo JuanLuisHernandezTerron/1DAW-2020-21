@@ -1,0 +1,17 @@
+CREATE DATABASE HernandezTerronJuanLuis;
+USE HernandezTerronJuanLuis;
+CREATE TABLE PROVINCIAS(
+	cod_provi Int(2) PRIMARY KEY,
+	Nombre VARCHAR(25) NOT NULL,
+	PAIS VARCHAR(25)CHECK (PAIS= 'ESPAÑA' OR PAIS= 'ITALIA' OR PAIS= 'PORTUGAL')
+);
+CREATE TABLE EMPRESAS(
+	cod_empre Int(2) PRIMARY KEY,
+	Nombre VARCHAR(25) DEFAULT 'empresa1' NOT NULL,
+	Fecha_crea DATE default (ADDDATE(current_date(), interval 1 day))
+);
+
+CREATE TABLE CONTINENTES(
+	Cod_conti Int PRIMARY KEY,
+	Nombre VARCHAR(20) DEFAULT 'EUROPA' NOT NULL
+);
